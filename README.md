@@ -82,7 +82,7 @@ Simple Navigation solution which uses SPO Theming, a configurable JSON file, and
 - desktop friendly ONLY (menus would need to be rendered as something else entirely to work on mobile due to use of Link top-level menu items which contain a HoverCard element)
 - all links open in new tab (can be fixed by changing the NavigationItem interface and corresponding JSON)
 - may have benefitted from using a Layer component to anchor object to the top of the screen while users are scrolling (decided this was out of scope, but could be relatively easily implemented)
-- heavy reliance on lambda functions (depends on personal preference, but if I had more time I think they'd be dedicated functions, preferrably in another class)
+- heavy reliance on "arrow functions" (depends on personal preference, but if I had more time I think they'd be dedicated functions, preferrably in another class)
 
 ## References
 
