@@ -47,13 +47,16 @@ Simple Navigation solution which uses SPO Theming, a configurable JSON file, and
       "value":[
         {
           "friendlyText":"Link to top-level 1",
-          "URL":"https://www.your-site.com/path/to/page.aspx"
-          "iconRef":"Globe"
+          "URL":"https://www.your-site.com/path/to/page.aspx",
+          "iconRef":"Globe",
           "subItems":[
             {
               "friendlyText":"Link to second level 1",
-              "URL":"https://www.your-site.com/path/to/page.aspx"
-              "iconRef":"Globe"
+              "URL":"https://www.your-site.com/path/to/page.aspx",
+              "iconRef":"Globe",
+              "subItems":[
+                ...
+              ]
             },
             {
               ...
