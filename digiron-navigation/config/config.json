@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "digiron-nav-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/digironNavCustomizer/DigironNavCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/digironNavCustomizer/DigironNavCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DigironNavCustomizerApplicationCustomizerStrings": "lib/extensions/digironNavCustomizer/loc/{locale}.js"
+  }
+}

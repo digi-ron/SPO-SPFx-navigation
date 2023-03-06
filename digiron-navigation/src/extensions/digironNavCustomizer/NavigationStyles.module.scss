@@ -1,0 +1,33 @@
+.topLevelNavigation {
+    width: 100%;
+    text-align: center;
+    min-width: 175px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.topLevelButtons {
+    background-color: "[theme: themeDark, default: #000000]";
+    :hover {
+        background-color: "[theme: themeLighter, default: #111111]";
+        color: "[theme: themeDarker, default: #444444]";
+    }
+}
+
+.topLevelLinks {
+    font-size: large;
+    font-weight: bold;
+    color: "[theme: white, default: #FFFFFF]";
+}
+
+.secondLevelHeadings {
+    font-size: medium;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.hoverMenu {
+    min-width: 175px;
+}

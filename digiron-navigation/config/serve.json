@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/Intranet",
+      "customActions": {
+        "6d4dfa1f-3986-4c32-bad9-bb3fa839c04a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+          }
+        }
+      }
+    },
+    "digironNavCustomizer": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/Intranet",
+      "customActions": {
+        "6d4dfa1f-3986-4c32-bad9-bb3fa839c04a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+          }
+        }
+      }
+    }
+  }
+}

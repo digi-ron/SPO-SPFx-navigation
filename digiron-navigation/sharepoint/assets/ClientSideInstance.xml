@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="DigironNavCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="6d4dfa1f-3986-4c32-bad9-bb3fa839c04a"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
