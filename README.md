@@ -86,6 +86,7 @@ Simple Navigation solution which uses SPO Theming, a configurable JSON file, and
 - all links open in new tab (can be fixed by changing the NavigationItem interface and corresponding JSON)
 - may have benefitted from using a Layer component to anchor object to the top of the screen while users are scrolling (decided this was out of scope, but could be relatively easily implemented)
 - heavy reliance on "arrow functions" (depends on personal preference, but if I had more time I think they'd be dedicated functions, preferrably in another class)
+- JSON file is assumed to be, and is only tested in, a SharePoint Online document library. Ideally this would be stored somewhere such as Azure (Blob storage was where I was thinking, but again, out of time)
 
 ## References
 
