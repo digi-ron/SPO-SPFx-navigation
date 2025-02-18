@@ -1,5 +1,9 @@
 # digiron-navigation
 
+## UPDATE 19/02/2025
+
+This repo is archived due to a change in my priorities and a list of security advisories. Eventually this repository will be deleted entirely, but for now it stands as an example of what you *could* do to make a navigation component in SPFx. If you intend on using this code, ***ensure your dependencies are up to date***
+
 ## Summary
 
 Simple Navigation solution which uses SPO Theming, a configurable JSON file, and a term store item
